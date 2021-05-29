@@ -1,0 +1,116 @@
+* {
+  /* background: url("https://tse2.mm.bing.net/th?id=OIP.VZtmZvCS3m_TwmsOciOMbwHaDo&pid=Api&P=0&w=355&h=175")
+    no-repeat; */
+  /* background-attachment: fixed;
+  background-size: cover; */
+  background: cornflowerblue;
+}
+
+body {
+  margin: auto;
+  width: 750px;
+}
+
+:root {
+  --border: 3px solid #002178;
+  --font: "Lobster", cursive;
+  --inputHover: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h2 {
+  color: rgb(228, 228, 211);
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: "Dancing Script", cursive;
+  text-transform: capitalize;
+}
+
+form {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  box-shadow: 0 15px 30px rgb(53, 26, 88);
+  padding: 30px 15px;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  border: var(--border);
+  font-family: var(--font);
+  /* margin: 10px; */
+}
+
+input:focus {
+  background-color: var(--inputHover);
+  outline: none;
+}
+
+textarea {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  min-width: 400px;
+  max-height: 300px;
+  min-height: 200px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  border: var(--border);
+  font-family: var(--font);
+}
+
+textarea:focus {
+  background-color: var(--inputHover);
+  outline: none;
+}
+
+button {
+  padding: 5px 25px;
+  border-radius: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+  border: var(--border);
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+button:hover {
+  font-size: 30px;
+  background-color: rgb(139, 218, 22);
+  color: black;
+}
+
+#new-shopping-list {
+  margin-top: 40px;
+  padding: 30px 20px;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgb(53, 26, 88);
+  /* display: none; */
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+ul li {
+  font-size: 1.5em;
+  color: rgb(187, 221, 250);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+li {
+  list-style-type: square;
+}
