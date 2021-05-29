@@ -1,23 +1,3 @@
-// const input = document.getElementById('value');
-
-// function handler(){
-//     console.log(input.value);
-// }
-
-// input.addEventListener('keyup', handler)
-
-
-// function handler(e) {
-//     if(e.key == "@") {
-//         e.preventDefault()
-//         alert("you can't do that here")
-//     }
-// }
-
-// input.addEventListener('keydown', handler)
-
-
-
 const Input = document.querySelector(".input");
 const Input2 = document.querySelector(".input2");
 const Input3 = document.querySelector(".input3");
@@ -76,51 +56,17 @@ function addShoppingItems() {
 
 Btn.addEventListener('click', addShoppingItems);
 
-
-
-//     function updateDom() {
-    //         newShoppingItem.innerHTML = "";
-    //         for(var i = 0; i < shoppingList.length; ++i) {
-        //             //code to create ul>li elements
-        //             const listElement = document.createElement("li")
-        //             // code to target the input fields
-        //             const val = Input.value;
-        //             const val2 = Input2.value;
-        //             const val3 = Input3.value;
-        
-        //             listElement.innerText = `${val} ${val2} ${val3}`;
-        
-        //             //code to loop through the input value
-        //             listElement.innerText = shoppingList[i];
-        
-        //             //this joins the li to the ul
-        //             newShoppingItem.appendChild(listElement);
-        //         }
-        //     }
-        //     const newInput = listElement.innerText.value
-        
-        
-        //     function addShoppingItems(){
             
-            
-            //         //creates new shopping lists and concat the input values so they can return as a single statement
-            //         shoppingList.push(newInput.value);
-            //         updateDom();
-            //     }
-            
-            // Btn.addEventListener('click', addShoppingItems);
-            
-            
-            function btnAlert(e) {
-            /*
-            if (val || val2 || val3 == "") {
-            I don't know why this logic is not working but I feel it is suppose to
-                console.log("no");
-                newShoppingItem.innerHTML = " "; 
-            } else {
-                addShoppingItems()
-            }
-            */
+ function btnAlert(e) {
+      /*
+       if (val || val2 || val3 == "") {
+       I don't know why this logic is not working but I feel it is suppose to
+          console.log("no");
+            newShoppingItem.innerHTML = " "; 
+         } else {
+             addShoppingItems()
+         }
+      */
             e.preventDefault();
         }           
             Btn.addEventListener('click', btnAlert)
